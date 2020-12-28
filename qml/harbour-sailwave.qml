@@ -84,6 +84,15 @@ ApplicationWindow
 
         StationEditDialog {}
     }
+
+    Component {
+        id: omniPortDialog
+
+        OmniPortDialog {}
+    }
+
+    XmlImporter { id: xmlImporter }
+
 }
 
 

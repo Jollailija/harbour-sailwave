@@ -81,6 +81,25 @@ Page {
             }
         }
 
+        PushUpMenu {
+            MenuItem {
+                text: qsTr("Import stations")
+                onClicked: {
+                    var dialog = pageStack.push("../pages/OmniPortDialog.qml", {
+                                                    "state": "import"
+                                                })
+                }
+            }
+            MenuItem {
+                text: qsTr("Export stations")
+                onClicked: {
+                    var dialog = pageStack.push("../pages/OmniPortDialog.qml", {
+                                                    "state": "export"
+                                                })
+                }
+            }
+        }
+
         model: stations
 
         delegate: StationDelegate {
@@ -94,7 +113,7 @@ Page {
         }
 
         ViewPlaceholder {
-            text: qsTr("No stations available.<br/>Pull down to add a new station.")
+            text: qsTr("No stations available.<br/>Pull down to add a new station or push up to import from a playlist file.")
             enabled: list.count == 0
         }
 

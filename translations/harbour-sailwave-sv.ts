@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.0" language="sv">
+<TS version="2.1" language="sv">
+<context>
+    <name></name>
+    <message id="Format">
+        <location filename="../qml/pages/OmniPortDialog.qml" line="99"/>
+        <source></source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
 <context>
     <name>AboutModel</name>
     <message>
@@ -123,42 +131,42 @@
 <context>
     <name>AudioPlayer</name>
     <message>
-        <location filename="../qml/common/AudioPlayer.qml" line="307"/>
+        <location filename="../qml/common/AudioPlayer.qml" line="340"/>
         <source>The stream URL is not valid.</source>
         <translation>URL-adressen är ogiltig.</translation>
     </message>
     <message>
-        <location filename="../qml/common/AudioPlayer.qml" line="311"/>
+        <location filename="../qml/common/AudioPlayer.qml" line="344"/>
         <source>The stream format is not supported.</source>
         <translation>Strömningsformatet stöds inte.</translation>
     </message>
     <message>
-        <location filename="../qml/common/AudioPlayer.qml" line="315"/>
+        <location filename="../qml/common/AudioPlayer.qml" line="348"/>
         <source>The network is not available.</source>
         <translation>Nätverket är inte tillgängligt.</translation>
     </message>
     <message>
-        <location filename="../qml/common/AudioPlayer.qml" line="319"/>
+        <location filename="../qml/common/AudioPlayer.qml" line="352"/>
         <source>No permessions to access the stream.</source>
         <translation>Tillstånd att ansluta till dataströmmen nekades.</translation>
     </message>
     <message>
-        <location filename="../qml/common/AudioPlayer.qml" line="323"/>
+        <location filename="../qml/common/AudioPlayer.qml" line="356"/>
         <source>The audio service could not be instantiated.</source>
         <translation>Ljudtjänsten kunde inte instantieras.</translation>
     </message>
     <message>
-        <location filename="../qml/common/AudioPlayer.qml" line="327"/>
+        <location filename="../qml/common/AudioPlayer.qml" line="360"/>
         <source>An unknown error occured.</source>
         <translation>Ett okänt fel uppstod.</translation>
     </message>
     <message>
-        <location filename="../qml/common/AudioPlayer.qml" line="247"/>
+        <location filename="../qml/common/AudioPlayer.qml" line="225"/>
         <source>Buffering...</source>
         <translation>Buffrar...</translation>
     </message>
     <message>
-        <location filename="../qml/common/AudioPlayer.qml" line="250"/>
+        <location filename="../qml/common/AudioPlayer.qml" line="228"/>
         <source>Loading...</source>
         <translation>Läser in...</translation>
     </message>
@@ -261,13 +269,51 @@ Time format for small sized labels, Hours = 0.</extracomment>
         <translation>Lägg till station</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="93"/>
+        <location filename="../qml/pages/MainPage.qml" line="86"/>
+        <source>Import stations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="94"/>
+        <source>Export stations</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/MainPage.qml" line="112"/>
         <source>Stations</source>
         <translation>Stationer</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="97"/>
-        <source>No stations available.&lt;br/&gt;Pull down to add a new station.</source>
+        <location filename="../qml/pages/MainPage.qml" line="116"/>
+        <source>No stations available.&lt;br/&gt;Pull down to add a new station or push up to import from a playlist file.</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>OmniPortDialog</name>
+    <message>
+        <location filename="../qml/pages/OmniPortDialog.qml" line="15"/>
+        <source>Import options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/OmniPortDialog.qml" line="30"/>
+        <source>Export options</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/OmniPortDialog.qml" line="68"/>
+        <source>Start</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/OmniPortDialog.qml" line="92"/>
+        <source>File path or remote url</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../qml/pages/OmniPortDialog.qml" line="80"/>
+        <source>Filename</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

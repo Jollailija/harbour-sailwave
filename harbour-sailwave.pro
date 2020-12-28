@@ -15,37 +15,22 @@ SOURCES += src/harbour-sailwave.cpp \
     src/sailwave.cpp
 
 OTHER_FILES += qml/harbour-sailwave.qml \
-    qml/pages/MainPage.qml \
-    qml/pages/StationEditDialog.qml \
-    qml/pages/SleepTimerDialog.qml \
-    qml/pages/CheckStationPage.qml \
+    qml/pages/*.qml \
+    qml/common/*.qml \
     qml/cover/CoverPage.qml \
-    qml/common/AudioPlayer.qml \
-    qml/common/StationsModel.qml \
-    qml/common/Station.qml \
-    qml/common/StationDelegate.qml \
-    qml/common/SleepTimer.qml \
-    qml/common/PulseAnimation.qml \
+    qml/js/*.js \
     qml/images/radio.png \
+    qml/images/GPLv3.png \
     rpm/harbour-sailwave.spec \
     rpm/harbour-sailwave.yaml \
     harbour-sailwave.desktop \
-    translations/*.ts \
-    qml/common/Settings.qml \
-    qml/pages/SettingsDialog.qml \
-    qml/pages/AboutPage.qml \
-    qml/common/AboutItem.qml \
-    qml/pages/LicensePage.qml \
-    qml/images/GPLv3.png \
-    qml/js/DurationFormatter.js \
-    qml/common/InfoPopup.qml \
-    qml/common/AboutModel.qml
+    translations/*.ts
 
 CONFIG += sailfishapp_i18n
 TRANSLATIONS += \
-    translations/harbour-sailwave-de.ts \
-    translations/harbour-sailwave-sv.ts \
-    translations/harbour-sailwave-fi.ts
+    translations/harbour-sailwave.ts \
+    translations/harbour-sailwave-*.ts
 
 HEADERS += \
     src/sailwave.h
+

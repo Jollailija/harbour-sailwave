@@ -1,6 +1,6 @@
 Name: harbour-sailwave
-Summary: SailWave is a simple and fast internet radio player
-Version: 0.2.1
+Summary: A simple and fast internet radio player with playlist import/export
+Version: 0.3
 Release: 1
 Group: Qt/Qt
 URL: http://example.org/
@@ -9,7 +9,7 @@ Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |
   SailWave is a simple and fast internet radio player application.
-  Currently, it allows to add internet radio stations by copying the URL of the station.
+  You can add stations by importing xml files or copying the URL of the station.
 Configure: none
 Builder: qtc5
 PkgConfigBR:
