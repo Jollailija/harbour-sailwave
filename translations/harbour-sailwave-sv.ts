@@ -6,7 +6,7 @@
     <message id="Format">
         <location filename="../qml/pages/OmniPortDialog.qml" line="99"/>
         <source></source>
-        <translation type="unfinished"></translation>
+        <translation></translation>
     </message>
 </context>
 <context>
@@ -51,7 +51,7 @@
     <message>
         <location filename="../qml/common/AboutModel.qml" line="23"/>
         <source>on GitHub Issues</source>
-        <translation>på </translation>
+        <translation>på GitHubs ärendehanterare</translation>
     </message>
     <message>
         <location filename="../qml/common/AboutModel.qml" line="29"/>
@@ -112,12 +112,12 @@
     <message>
         <location filename="../qml/common/AboutModel.qml" line="65"/>
         <source>Radio icon created by</source>
-        <translation type="unfinished"></translation>
+        <translation>Radioikon skapad av</translation>
     </message>
     <message>
         <location filename="../qml/common/AboutModel.qml" line="67"/>
         <source>Other</source>
-        <translation type="unfinished"></translation>
+        <translation>Annat</translation>
     </message>
 </context>
 <context>
@@ -271,12 +271,12 @@ Time format for small sized labels, Hours = 0.</extracomment>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="86"/>
         <source>Import stations</source>
-        <translation type="unfinished"></translation>
+        <translation>Importera stationer</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="94"/>
         <source>Export stations</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportera stationer</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="112"/>
@@ -286,7 +286,7 @@ Time format for small sized labels, Hours = 0.</extracomment>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="116"/>
         <source>No stations available.&lt;br/&gt;Pull down to add a new station or push up to import from a playlist file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga stationer tillgängliga.&lt;br/&gt;Dra neråt för att lägga till en station eller dra uppåt för att importera från en spelningslista.</translation>
     </message>
 </context>
 <context>
@@ -294,27 +294,27 @@ Time format for small sized labels, Hours = 0.</extracomment>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="15"/>
         <source>Import options</source>
-        <translation type="unfinished"></translation>
+        <translation>Importalternativ</translation>
     </message>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="30"/>
         <source>Export options</source>
-        <translation type="unfinished"></translation>
+        <translation>Exportalternativ</translation>
     </message>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="68"/>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta</translation>
     </message>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="92"/>
         <source>File path or remote url</source>
-        <translation type="unfinished"></translation>
+        <translation>Filsökväg eller fjärr-URL</translation>
     </message>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="80"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Filnamn</translation>
     </message>
 </context>
 <context>
