@@ -271,12 +271,12 @@ Time format for small sized labels, Hours = 0.</extracomment>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="86"/>
         <source>Import stations</source>
-        <translation type="unfinished"></translation>
+        <translation>Importer des stations</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="94"/>
         <source>Export stations</source>
-        <translation type="unfinished"></translation>
+        <translation>Exporter des stations</translation>
     </message>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="112"/>
@@ -286,7 +286,7 @@ Time format for small sized labels, Hours = 0.</extracomment>
     <message>
         <location filename="../qml/pages/MainPage.qml" line="116"/>
         <source>No stations available.&lt;br/&gt;Pull down to add a new station or push up to import from a playlist file.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aucune station disponible.&lt;br/&gt;Balayez vers le bas pour en ajouter une nouvelle ou glisser en haut pour un import à partir d'une liste de lecture.</translation>
     </message>
 </context>
 <context>
@@ -294,27 +294,27 @@ Time format for small sized labels, Hours = 0.</extracomment>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="15"/>
         <source>Import options</source>
-        <translation type="unfinished"></translation>
+        <translation>Options d'import</translation>
     </message>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="30"/>
         <source>Export options</source>
-        <translation type="unfinished"></translation>
+        <translation>Options d'export</translation>
     </message>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="68"/>
         <source>Start</source>
-        <translation type="unfinished"></translation>
+        <translation>Débuter</translation>
     </message>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="92"/>
         <source>File path or remote url</source>
-        <translation type="unfinished"></translation>
+        <translation>Emplacement ou url distante</translation>
     </message>
     <message>
         <location filename="../qml/pages/OmniPortDialog.qml" line="80"/>
         <source>Filename</source>
-        <translation type="unfinished"></translation>
+        <translation>Nom de fichier</translation>
     </message>
 </context>
 <context>
